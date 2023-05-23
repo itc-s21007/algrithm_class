@@ -16,3 +16,7 @@
 [Lesson2-4](https://github.com/itc-s21007/algrithm_class/tree/master/Capter2/Lesson2-4)  
 [Lesson2-5](https://github.com/itc-s21007/algrithm_class/tree/master/Capter2/Lesson2-5)   
 [Chapter2練習問題](https://github.com/itc-s21007/algrithm_class/tree/master/%E7%B7%B4%E7%BF%92%E5%95%8F%E9%A1%8C)  
+
+## Chapter3 データ構造を学ぶ
+[Liked_list_1](https://github.com/itc-s21007/algrithm_class/blob/master/Chapter3/linked_list_1.py)  
+[tree_1](https://github.com/itc-s21007/algrithm_class/blob/master/Chapter3/tree_1.py)  
