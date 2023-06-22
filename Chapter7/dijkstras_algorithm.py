@@ -17,16 +17,21 @@ dist[p] = 0
 print("始点", p)
 
 for i in range(7):
+    print("(", i + 1, ")回目のループ　ーーーーーー")
     d = F
     for j in range(7):
         if flg[j] == 0 and dist[j] < d:
             p = j
             d = dist[j]
-        flg[p] = 1
-        for k in range(7):
-            if dist[p]+way[p][k] < dist[k]:
-                dist[k] = dist[p] + way[p][k]
-                route[k] = p
+    print("p=", p)
+    flg[p] = 1
+    for k in range(7):
+        if dist[p]+way[p][k] < dist[k]:
+            dist[k] = dist[p] + way[p][k]
+            print("k=", k)
+    print("flg", flg)
+    print("dist", dist)
+    
 print("各ノードまでの距離")
 for i in range(7):
     print("ノード{}まで　{}".format(i, dist[i]))
