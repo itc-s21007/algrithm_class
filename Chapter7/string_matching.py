@@ -1,4 +1,4 @@
-text = "I'm learning Pythons. It's interesting!"
+text = "I'm learning Pythons. It's interesting! python"
 pattern = "Pythons"
 tn = len(text)
 pn = len(pattern)
